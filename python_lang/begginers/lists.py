@@ -7,6 +7,7 @@ print (first_student, second_student, third_student)
 
 # slicing
 new_list = students[0:2] # first two students
+new_list2 = students[-2:] # last two students
 # [1:] -> from the second item to the end
 # [:4] -> from the first item to the forth item
 # [:] -> from start to the end (create a shallow copy)
