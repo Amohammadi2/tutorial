@@ -11,12 +11,16 @@ new_list = students[0:2] # first two students
 # [:4] -> from the first item to the forth item
 # [:] -> from start to the end (create a shallow copy)
 
+# slice assignment
+new_list[0] = 'Sadegh'
+new_list[0:3] = ['student_1', 'student_2', 'student_3']
+
 # adding a new item
 students.append('Alireza')
 new_students = ['Mohammadali', 'Arash', 'Keivan']
 # append a list to the original one
-some_list = students + new_students
-students.extend(new_students)
+some_list = students + new_students # makes a copy and doesn't mutate the original list
+students.extend(new_students) # mutates the original one as well
 
 # removing an item
 students.pop(2) # remove the third item
