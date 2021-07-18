@@ -1,3 +1,4 @@
+# defining a list
 students = ['Ashkan', 'Amirreza', 'Ali']
 
 # accessing items
