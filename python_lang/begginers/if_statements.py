@@ -8,5 +8,3 @@ elif your_age == my_age:
     print ("we are at the same age")
 else:
     print ("you are younger than me")
-
-# "10" -> 10
